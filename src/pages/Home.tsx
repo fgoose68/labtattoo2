@@ -16,12 +16,11 @@ const SERVICES = [
 ];
 
 const GALLERY_PHOTOS = [
-  'https://images.pexels.com/photos/2183130/pexels-photo-2183130.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/3036094/pexels-photo-3036094.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/1322182/pexels-photo-1322182.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/1148605/pexels-photo-1148605.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/977796/pexels-photo-977796.jpeg?auto=compress&cs=tinysrgb&w=600',
-  'https://images.pexels.com/photos/1395964/pexels-photo-1395964.jpeg?auto=compress&cs=tinysrgb&w=600',
+  '/1sss.jpeg',
+  '/3333.jpeg',
+  '/5555.jpeg',
+  '/9999.jpeg',
+  '/666666.jpeg',
 ];
 
 function useIntersection(ref: React.RefObject<Element | null>, options?: IntersectionObserverInit) {
@@ -55,7 +54,7 @@ export default function Home({ onNavigate }: HomeProps) {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url('https://images.pexels.com/photos/2183130/pexels-photo-2183130.jpeg?auto=compress&cs=tinysrgb&w=1920')` }}
+          style={{ backgroundImage: `url('/1sss.jpeg')` }}
         />
         <div className="absolute inset-0 hero-overlay" />
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal-950/30 via-transparent to-charcoal-950" />
