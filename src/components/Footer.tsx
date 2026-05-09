@@ -74,7 +74,10 @@ export default function Footer({ onNavigate }: FooterProps) {
 
         <div className="mt-10 pt-6 border-t border-charcoal-800 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-charcoal-500">
           <span>© {new Date().getFullYear()} Ink Society. Tutti i diritti riservati.</span>
-          <span>Sviluppato con DuckDB + Supabase</span>
+          <div className="flex flex-col items-end gap-0.5">
+            <span>Sviluppato con DuckDB + Supabase</span>
+            <span className="text-charcoal-600">Ver9.1.Mag2026</span>
+          </div>
         </div>
       </div>
     </footer>
