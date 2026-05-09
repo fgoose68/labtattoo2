@@ -1,0 +1,7 @@
+services:
+  labtattoo:
+    build: .
+    container_name: labtattoo
+    restart: unless-stopped
+    ports:
+      - "6060:80"
