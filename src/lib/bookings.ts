@@ -66,19 +66,19 @@ export function buildWhatsAppUrl(phone: string, name: string, date: string, time
   const cleanPhone = phone.replace(/\D/g, '');
   const d = formatDate(date);
   const msg = status === 'confirmed'
-    ? `Ciao ${name}! Il tuo appuntamento da Ink Society per il ${d} alle ${time} è stato confermato. Ti aspettiamo!`
-    : `Ciao ${name}! Ti contatto da Ink Society riguardo al tuo appuntamento del ${d} alle ${time}.`;
+    ? `Ciao ${name}! Il tuo appuntamento da Il Conte per il ${d} alle ${time} è stato confermato. Ti aspettiamo!`
+    : `Ciao ${name}! Ti contatto da Il Conte riguardo al tuo appuntamento del ${d} alle ${time}.`;
   return `https://wa.me/${cleanPhone}?text=${encodeURIComponent(msg)}`;
 }
 
 export function buildMailtoUrl(email: string, name: string, date: string, time: string, status?: string): string {
   const d = formatDate(date);
   const subject = status === 'confirmed'
-    ? `Ink Society – Appuntamento confermato ${d}`
-    : `Ink Society – Il tuo appuntamento del ${d}`;
+    ? `Il Conte – Appuntamento confermato ${d}`
+    : `Il Conte – Il tuo appuntamento del ${d}`;
   const body = status === 'confirmed'
-    ? `Ciao ${name},\n\nil tuo appuntamento da Ink Society per il ${d} alle ${time} è stato confermato.\n\nTi aspettiamo!\n\nInk Society`
-    : `Ciao ${name},\n\nti scriviamo da Ink Society riguardo al tuo appuntamento del ${d} alle ${time}.\n\nA presto,\nInk Society`;
+    ? `Ciao ${name},\n\nil tuo appuntamento da Il Conte per il ${d} alle ${time} è stato confermato.\n\nTi aspettiamo!\n\nIl Conte`
+    : `Ciao ${name},\n\nti scriviamo da Il Conte riguardo al tuo appuntamento del ${d} alle ${time}.\n\nA presto,\nIl Conte`;
   return `mailto:${encodeURIComponent(email)}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
 

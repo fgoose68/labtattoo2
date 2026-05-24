@@ -144,7 +144,7 @@ export default function Booking({ onNavigate }: BookingProps) {
         <div className="max-w-2xl mx-auto">
           {/* Titolo */}
           <div className="text-center mb-10 pt-8">
-            <p className="text-ink-500 font-display text-xs tracking-[0.3em] uppercase mb-3">Ink Society</p>
+            <p className="text-ink-500 font-display text-xs tracking-[0.3em] uppercase mb-3">Il Conte</p>
             <h1 className="font-display text-4xl font-bold text-white mb-2">Prenota la Tua Sessione</h1>
             <p className="text-charcoal-400 text-sm">Scegli data, orario e raccontaci la tua visione.</p>
           </div>
