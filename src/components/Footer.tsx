@@ -16,7 +16,7 @@ export default function Footer({ onNavigate }: FooterProps) {
                 <Zap size={18} className="text-white" fill="currentColor" />
               </div>
               <span className="font-display text-xl font-bold tracking-widest text-white uppercase">
-                Ink <span className="text-ink-500">Society</span>
+                Il <span className="text-ink-500">Conte</span>
               </span>
             </div>
             <p className="text-charcoal-400 text-sm leading-relaxed">
@@ -73,10 +73,10 @@ export default function Footer({ onNavigate }: FooterProps) {
         </div>
 
         <div className="mt-10 pt-6 border-t border-charcoal-800 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-charcoal-500">
-          <span>© {new Date().getFullYear()} Ink Society. Tutti i diritti riservati.</span>
+          <span>© {new Date().getFullYear()} Il Conte. Tutti i diritti riservati.</span>
           <div className="flex flex-col items-end gap-0.5">
             <span>Sviluppato con DuckDB + Supabase</span>
-            <span className="text-charcoal-600">Ver9.1.Mag2026</span>
+            <span className="text-charcoal-600">Ver24.1.Mag2026</span>
           </div>
         </div>
       </div>
