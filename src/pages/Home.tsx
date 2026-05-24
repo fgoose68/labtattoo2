@@ -64,8 +64,8 @@ export default function Home({ onNavigate }: HomeProps) {
             Benvenuto da
           </p>
           <h1 className="opacity-0 animate-slide-up font-display text-6xl sm:text-7xl md:text-8xl font-black tracking-tight text-white leading-none mb-4">
-            INK
-            <span className="block text-gradient">SOCIETY</span>
+            IL
+            <span className="block text-gradient">CONTE</span>
           </h1>
           <p className="opacity-0 animate-slide-up-delayed text-charcoal-300 text-lg md:text-xl mt-4 mb-10 font-light">
             Dove l'Arte Incontra la Pelle — Tatuaggi Personalizzati Realizzati con Passione
