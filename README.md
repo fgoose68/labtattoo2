@@ -1,4 +1,4 @@
-# labtattoo2
+# labtattoo2_creata con Bolt_!!
 Sito per la gestione delle prenotazioni dello studio tattoo con accesso Admin per visualizzare gli appuntamenti.
 
 [![Open in Bolt](https://bolt.new/static/open-in-bolt.svg)](https://bolt.new/~/sb1-uzbz2zq1)
